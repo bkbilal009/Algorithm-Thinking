@@ -1,70 +1,70 @@
-# 🚀 3-Month Master DSA & Logic Building Journey
+# 3-Month Master DSA & Logic Building Journey
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/Status-In%20Progress-success?style=for-the-badge&logo=git)]()
-[![Target](https://img.shields.io/badge/Goal-3%20Months%20Intensive-orange?style=for-the-badge&logo=target)]()
-[![Languages](https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Python-blue?style=for-the-badge&logo=c%2B%2B)]()
+[![Status](https://img.shields.io/badge/Status-In%20Progress-success?style=flat-square&logo=git)]()
+[![Target](https://img.shields.io/badge/Goal-3%20Months%20Intensive-blue?style=flat-square&logo=target)]()
+[![Languages](https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Python-informational?style=flat-square&logo=c%2B%2B)]()
 
-> *"Skill is built through problem-solving; mastery is forged through relentless daily consistency."* ⚡
+> *"Skill is built through problem-solving; mastery is forged through relentless daily consistency."*
 
 </div>
 
 ---
 
-## 📌 About The Journey
-Welcome to my intensive **3-Month DSA & Problem-Solving Sprint**! This repository is dedicated to building crystal-clear fundamental logic, understanding algorithmic efficiency, and solving problems daily to reach competitive-level proficiency in Data Structures and Algorithms.
+## Overview
+Welcome to my intensive **3-Month DSA & Problem-Solving Sprint**. This repository tracks my progression from foundational programming concepts to advanced algorithmic mastery, featuring structured daily implementations, clean problem-solving notes, and optimized code architecture.
 
 ---
 
-## 📅 Daily Learning Tracker
+## Daily Progress Tracker
 
-| Day | Topic / Core Concept | Reference | Status | Quick Notes & Summary |
+| Day | Topic / Core Concept | Reference | Status | Summary & Notes |
 | :---: | :--- | :---: | :---: | :--- |
-| **01** | Introduction to Programming & Core Logic | [Lecture 01](https://youtu.be/y3OOaXrFy-Q) | ✅ Completed | • Evolution of Counting & Number Systems<br>• Binary, Octal & Hexadecimal conversions<br>• Computer Memory & Efficiency basics |
-| **02** | *Coming Soon...* | - | ⏳ Pending | - |
-| **03** | *Coming Soon...* | - | ⏳ Pending | - |
+| **01** | Introduction to Programming & Core Logic | [Lecture 01](https://youtu.be/y3OOaXrFy-Q) | Completed | • Evolution of Counting & Number Systems<br>• Binary, Octal & Hexadecimal conversions<br>• Computer Memory & Efficiency basics |
+| **02** | *Coming Soon...* | - | Pending | - |
+| **03** | *Coming Soon...* | - | Pending | - |
 
 ---
 
-## 💡 Day 01: Deep-Dive Concept Summary
+## Day 01: Deep-Dive Concept Summary
 
-### 1. 🏛️ Evolution of Counting & Data Representation
-* **Why Number Systems Exist:** Traced the historical evolution of numbers—from primitive Tally Marks and stone-counting to modern positional number systems—to understand **why computers process data in specific formats**.
-* **The Necessity of Standardization:** As data scales, simple tracking methods fail. Computers need rigid, efficient systems to store and retrieve data seamlessly.
+### 1. Evolution of Counting & Data Representation
+* **Historical Context:** Examined how data tracking evolved from primitive methods like tally marks and stone counting to structured positional systems, laying the groundwork for modern computation.
+* **Standardization:** Understood why rigid architectural frameworks are required for computers to process large-scale data reliably.
 
-### 2. 🔢 Mastered Number Systems & Conversions
-* **Binary (Base-2):** The universal language of computers ($0$ and $1$, representing circuit states OFF/ON).
-* **Decimal (Base-10):** Human-standard number system.
-* **Octal (Base-8) & Hexadecimal (Base-16):** Compact representations used to manage large binary numbers in memory addresses efficiently.
-* **Conversion Techniques:** Hands-on practice converting values between Binary, Decimal, Octal, and Hexadecimal representations.
+### 2. Number Systems & Conversions
+* **Binary (Base-2):** The fundamental machine-level language operating on circuit states ($0$ and $1$).
+* **Decimal (Base-10):** The standard human arithmetic system.
+* **Octal (Base-8) & Hexadecimal (Base-16):** Compact representations utilized for efficient memory management and address allocation.
+* **Conversion Techniques:** Practical implementation of cross-system value translations.
 
-### 3. 🧠 Memory, Hardware & Data Flow
-* **How Computers Store Data:** Understood how text, images, and numbers are ultimately reduced to binary bits in RAM/Storage.
-* **Internet & Data Retrieval:** Basic breakdown of how data moves across networks and why reducing bit-size optimizes performance.
+### 3. Memory Architecture & Data Flow
+* **Hardware Storage:** Analyzed how complex data structures (text, images) resolve down to binary bits within physical memory modules.
+* **Network Performance:** Explored packet routing fundamentals and the direct correlation between minimal bit-size and system optimization.
 
-### 4. ⚡ Algorithmic Efficiency & Problem-Solving Mindset
-* **Flowcharts & Pseudocode:** Translating real-world problems into logical step-by-step instructions before writing a single line of code.
-* **Time & Space Optimization:** Why writing code isn't enough—the goal is writing code that runs in **minimal time** using **minimal memory**.
+### 4. Algorithmic Efficiency & Problem-Solving Mindset
+* **Logic Modeling:** Translating raw problem statements into structured, sequential flowcharts and pseudocode prior to coding.
+* **Complexity Optimization:** Focusing on writing sustainable code focused on minimal Time and Space complexity.
 
 ---
 
-## 🛠️ Tech Stack & Environment
+## Tech Stack & Environment
 * **Primary Languages:** C++ / Python
-* **Platforms:** LeetCode, Codeforces, HackerRank
-* **Tools:** VS Code, Git, GitHub
+* **Competitive Platforms:** LeetCode, Codeforces, HackerRank
+* **Development Tools:** VS Code, Git, GitHub
 
 ---
 
-## 🎯 The 3-Month Commitment Rule
-* 🕒 **Daily Consistency:** Code and practice every single day without fail.
-* ✍️ **Document Everything:** Clean commits, well-commented code, and daily logic breakdowns.
-* 📈 **Focus on Optimization:** Prioritize optimal Time & Space Complexity over brute-force solutions.
+## The 3-Month Commitment
+* **Daily Consistency:** Maintaining regular code commits and incremental progression.
+* **Documentation:** Clear code commenting, clean architecture, and structured notes.
+* **Optimization First:** Prioritizing efficient algorithmic design over brute-force solutions.
 
 ---
 
 <div align="center">
 
-*Driven by discipline. Powered by code.* 🚀
+*Driven by discipline. Powered by code.*
 
 </div>
