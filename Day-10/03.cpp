@@ -28,5 +28,12 @@ int main(){
 	else{
 		cout<<"Consonant";
 	}
+
+	// Not 
+	
+	
+	cout<<!23; // 0
+	cout<<!0;  // 1
+	cout<<!28; // 0
 	
 }
