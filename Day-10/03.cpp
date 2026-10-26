@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 	
-	// Logical Operator
+	// Logical Operator 
 	
 	// AND
 	
