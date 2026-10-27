@@ -31,3 +31,39 @@ int main(){
 		i++; // updation
 	}
 }
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++ (Table) ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+//Enter the input : 12
+//12
+//24
+//36
+//48
+//60
+//72
+//84
+//96
+//108
+//120
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+	
+	int n;
+	cout<<"Enter the input : ";
+	cin>>n;
+	int i=1;
+	
+	while(i<=10){
+		cout<<i*n<<endl;
+		i++;
+	}
+}
