@@ -1,6 +1,6 @@
 //Enter the input :2
 //Kashif
-
+ 
 #include<iostream>
 using namespace std;
 
