@@ -247,3 +247,41 @@ int main(){
 }
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Qs:06
+//6: Give a number n, find if it is prime or not, use a while loop and break here to solve it.
+
+// Ans : 06
+
+
+//Enter the input : 6
+//Not a prime number
+
+//Enter the input : 2
+//Prime number
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+	int n;
+	cout<<"Enter the input : ";
+	cin>>n;
+	
+	int i=2;
+	while(i<n){
+		if (n%1==0){
+			break;
+		}
+		i++;
+	}
+	if(n>1 && i==n){ 
+	cout<<"Prime number"; 
+	}
+	 else{
+	  cout<<"Not a prime number"; 
+	  }
+	
+}
