@@ -95,6 +95,10 @@ int main(){
 }
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
 // Qs:03
 // 3: Given a number n, print all the numbers from 1 to n(inclusive) which are not divisible by 3 and 5. (use Continue here).
 
@@ -152,23 +156,13 @@ int main(){
 }
   
 
-// Qs:03 4: Given a number n, print the corresponding month of it. For n=1, print Jan, n=2, print Feb…, if the user puts any invalid number, don’t do anything. (Use switch here)
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// Ans : 03
 
-//Enter the input : 20
-//Value is: 1
-//Value is: 2
-//Value is: 4
-//Value is: 7
-//Value is: 8
-//Value is: 11
-//Value is: 13
-//Value is: 14
-//Value is: 16
-//Value is: 17
-//Value is: 19
+// Qs:04
+// 4: Given a number n, print the corresponding month of it. For n=1, print Jan, n=2, print Feb…, if the user puts any invalid number, don’t do anything. (Use switch here)
 
+// Ans : 04
 
 #include<iostream>
 using namespace std;
@@ -216,3 +210,40 @@ int main(){
 			break;
 	}
 }
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Qs:05
+// 5: Print all the Capital and small letters  using a while loop. It means A-Z, then a-z.
+
+// Ans : 05
+
+
+
+//A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+//a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+	char cap = 'A';
+	char small = 'a';
+	
+	while(cap <= 'Z'){
+		cout<<cap<<" ";
+		cap++;
+	}
+	cout<<endl;
+	
+	while(small<='z'){
+		cout<<small<<" ";
+		small++;
+	}
+	cout<<endl;
+	
+}
+
+
