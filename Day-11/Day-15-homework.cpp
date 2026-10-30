@@ -135,5 +135,84 @@ int main(){
 
 // do-while loop
 
-
+int main(){
+	int n;
+	cout<<"Enter the input : ";
+	cin>>n;
+	int i=1;
+	do{
+		if(i%3==0 || i%5==0){
+			i++;
+			continue;
+		}
+		cout<<"Value is : "<<i<<endl;
+		i++;
+	}
+	while(i<=n);
+}
   
+
+// Qs:03 4: Given a number n, print the corresponding month of it. For n=1, print Jan, n=2, print Feb…, if the user puts any invalid number, don’t do anything. (Use switch here)
+
+// Ans : 03
+
+//Enter the input : 20
+//Value is: 1
+//Value is: 2
+//Value is: 4
+//Value is: 7
+//Value is: 8
+//Value is: 11
+//Value is: 13
+//Value is: 14
+//Value is: 16
+//Value is: 17
+//Value is: 19
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+	int n;
+	cout<<"Enter the input : ";
+	cin>>n;
+	switch (n){
+		case 1:
+			cout<<"Jan";
+			break;
+		case 2:
+			cout<<"Feb";
+			break;
+		case 3:
+			cout<<"Mar";
+			break;
+		case 4:
+			cout<<"Apr";
+			break;
+		case 5:
+			cout<<"May";
+			break;
+		case 6:
+			cout<<"June";
+			break;
+		case 7:
+			cout<<"July";
+			break;
+		case 8:
+			cout<<"Aug";
+			break;
+		case 9:
+			cout<<"Sep";
+			break;
+		case 10:
+			cout<<"Oct";
+			break;
+		case 11:
+			cout<<"Nov";
+			break;
+		case 12:
+			cout<<"Dec";
+			break;
+	}
+}
