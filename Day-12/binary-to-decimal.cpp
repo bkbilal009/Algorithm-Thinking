@@ -3,7 +3,7 @@
 //Enter the input: 110010
 //50
 
-
+ 
 #include<iostream>
 using namespace std;
 
