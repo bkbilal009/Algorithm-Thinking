@@ -87,3 +87,28 @@ int main(){
 }
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ (Built-in Function) +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+//Enter the number :4 9
+//9 4
+//3.6 4.8
+
+#include<iostream>
+using namespace std;
+
+
+int main(){
+	int a,b;
+	cout<<"Enter the number :";
+	cin>>a>>b;
+	
+	swap(a,b);                   // swap() is a built-in funciton
+	cout<<a<<" "<<b<<" "<<endl;
+	
+	float f1=4.8,f2=3.6;
+	swap(f1,f2);                // swap() is a built-in funciton
+	cout<<f1<<" "<<f2;
+	
+}
