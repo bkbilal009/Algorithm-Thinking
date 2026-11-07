@@ -5,7 +5,7 @@
 //40320
 //0
 //24
-
+ 
 #include<iostream>
 using namespace std;
 
