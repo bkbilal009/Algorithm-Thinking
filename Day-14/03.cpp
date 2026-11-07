@@ -6,7 +6,7 @@
 #include<iostream>
 using namespace std;
 
-void swap(int a,int b){
+void swap(int a,int b){ // pass by value
 	int c;
 	c=a;
 	a=b;
@@ -32,7 +32,7 @@ int main(){
 #include<iostream>
 using namespace std;
 
-void swap(int &a,int &b){
+void swap(int &a,int &b){ // pass by referance
 	int c;
 	c=a;
 	a=b;
@@ -48,3 +48,8 @@ int main(){
 	cout<<a<<" "<<b<<" ";
 	
 }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
