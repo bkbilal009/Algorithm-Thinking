@@ -3,6 +3,7 @@
 //Enter your word :l
 //L
 
+// Convert 'a' to 'A' --->  small to CAPITAL
 
 #include<iostream>
 using namespace std;
