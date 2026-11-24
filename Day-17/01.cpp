@@ -38,7 +38,7 @@ int main(){
 using namespace std;
 
 int main(){
-	vector <int> vec(5,1); // size is 3
+	vector <int> vec(5,0); 
 	
 	cout<<vec[0]<<endl;
 	cout<<vec[1]<<endl;
@@ -46,6 +46,12 @@ int main(){
     cout<<vec[3]<<endl;
     cout<<vec[4]<<endl;
 
+	// output: 
+	// 0
+	// 0
+	// 0
+	// 0
+	// 0
 	return 0;
 }
 
@@ -55,13 +61,20 @@ int main(){
 using namespace std;
 
 int main(){
-	vector <int> vec(5,1); // size is 3
+	vector <int> vec(5,1); 
 	
 	cout<<vec[0]<<endl;
 	cout<<vec[1]<<endl;
     cout<<vec[2]<<endl;
     cout<<vec[3]<<endl;
     cout<<vec[4]<<endl;
+
+	// output: 
+	// 1
+	// 1
+	// 1
+	// 1
+	// 1
 
 	return 0;
 }
@@ -73,13 +86,20 @@ int main(){
 using namespace std;
 
 int main(){
-	vector <int> vec(5,2); // size is 3
+	vector <int> vec(5,2); 
 	
 	cout<<vec[0]<<endl;
 	cout<<vec[1]<<endl;
     cout<<vec[2]<<endl;
     cout<<vec[3]<<endl;
     cout<<vec[4]<<endl;
+
+	// output: 
+	// 2
+	// 2
+	// 2
+	// 2
+	// 2
 
 	return 0;
 }
