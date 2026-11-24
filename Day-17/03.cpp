@@ -111,3 +111,29 @@ int main(){
     // cout<<alph[4]<<endl;
 	return 0;
 }
+
+
+
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main(){
+	vector <int> alph={2,3,4,5}; 
+	
+    
+    cout<<alph.at(0)<<endl;
+    cout<<alph.at(1)<<endl;
+    cout<<alph.at(2)<<endl;
+    cout<<alph.at(3)<<endl;
+
+	return 0;
+}
+
+// output : 
+
+// 2
+// 3
+// 4
+// 5
