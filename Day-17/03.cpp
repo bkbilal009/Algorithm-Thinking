@@ -41,3 +41,32 @@ int main(){
 // 4
 // 5
 // 6
+
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main(){
+	vector <int> alph={2,3,4,5}; 
+	
+	alph.pop_back();
+    
+    
+
+    cout<<alph[0]<<endl;
+    cout<<alph[1]<<endl;
+    cout<<alph[2]<<endl;
+    cout<<alph[3]<<endl;
+    cout<<alph[4]<<endl;
+	return 0;
+}
+
+
+// ouput  
+
+// 2
+// 3
+// 4
+// 5
+// 0
